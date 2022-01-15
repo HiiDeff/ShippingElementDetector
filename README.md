@@ -7,7 +7,7 @@ Follow the following steps to use this in your own code:
 1. Copy the Detector.java and DetectorTest.java class into your code base
 2. Make sure your robot is positioned as it would in the start of autonomous
 3. Run the DetectorTest.java op-mode and press 'A' to capture a new image
-4. Through command line/terminal, type in the following command: [COMMAND]
+4. Through command line/terminal, type in the following command: adb pull /sdcard/FIRST/data/webcam-frame-0.jpg ./
 5. While your camera is off, adjust and press 'A' again
 6. Find the image boundaries (estimate) to make only two of the markers visible
 7. Use these image boundaries in your autonomous op-mode
